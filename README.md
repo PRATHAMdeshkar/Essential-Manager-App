@@ -35,21 +35,6 @@ yarn install
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 
 
-3. things to be added/enhanced in the app: 
-
-in Remainder sectionn: the past remainder/alarm should be disabled or should move to history tab as we are doing for item list, we can make 2 pats of history as we are currently storing the history the of product that we check "puchesed" under the current date lable similary we can make the 2nd section in history tab for past notification (so it will also a type of task list or work done list for later referance), 
-secondly, the app is currelty dont have theme swithch which make placeholders and btn look wired or even invisible and btn colour also, need to enhance more on theme side of the app for both dark and light.
-UX & Visual Polish
-Dark / Light Theme Support (useColorScheme() from React Native)
-
-Smooth Animations with react-native-reanimated or framer-motion
-
-Unified UI Components:
-Create a design system — Button, Card, Input, etc.
-
-Accessibility Support:
-Add accessible and accessibilityLabel to key UI elements.
-
 npx expo start
 
 Scan the QR code using the **Expo Go** app (on Android or iOS).
@@ -103,3 +88,19 @@ This project is open-source and available under the **MIT License**.
 ---
 
 > ✨ *“Essential Manager — simplify your day, manage your essentials.”*
+
+
+3. things to be added/enhanced in the app: 
+
+in Remainder sectionn: the past remainder/alarm should be disabled or should move to history tab as we are doing for item list, we can make 2 pats of history as we are currently storing the history the of product that we check "puchesed" under the current date lable similary we can make the 2nd section in history tab for past notification (so it will also a type of task list or work done list for later referance), 
+secondly, the app is currelty dont have theme swithch which make placeholders and btn look wired or even invisible and btn colour also, need to enhance more on theme side of the app for both dark and light.
+UX & Visual Polish
+Dark / Light Theme Support (useColorScheme() from React Native)
+
+Smooth Animations with react-native-reanimated or framer-motion
+
+Unified UI Components:
+Create a design system — Button, Card, Input, etc.
+
+Accessibility Support:
+Add accessible and accessibilityLabel to key UI elements.
