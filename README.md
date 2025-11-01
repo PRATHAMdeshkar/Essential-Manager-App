@@ -47,31 +47,6 @@ If the app hangs on the splash screen when disconnected from USB, make sure your
 
 ---
 
-## 🧱 Project Structure
-
-
-Essential-Manager-App/
-├── app/ # App routes and screens
-│ ├── index.js # Root navigation
-│ ├── screens/ # Individual screen components
-│ └── components/ # Reusable UI components
-├── assets/ # Images, icons, fonts, etc.
-├── package.json # Project dependencies
-├── app.json # Expo configuration
-├── babel.config.js # Babel settings
-└── README.md # Project documentation
-
-
----
-
-## ⚙️ Usage
-
-- Open the app on your device or emulator.  
-- Use the dashboard to access essential tools and utilities.  
-- Modify or extend modules as needed in the `/app/screens` or `/app/components` folders.
-
----
-
 ## 🧩 Tech Stack
 - ⚛️ React Native (Expo)  
 - 💡 JavaScript  
