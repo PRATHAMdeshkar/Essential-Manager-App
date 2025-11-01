@@ -1,50 +1,127 @@
-# Welcome to your Expo app 👋
+# 📱 Essential Manager App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Essential Manager** is a productivity management mobile app built with **React Native (Expo)**.  
+It helps organize daily essentials, manage tasks, and provide quick access to utilities — all in one unified platform.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Getting Started
 
-   ```bash
-   npm install
-   ```
+### 1️⃣ Clone the Repository
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+git clone https://github.com/PRATHAMdeshkar/Essential-Manager-App.git
 
-In the output, you'll find options to open the app in a
+cd Essential-Manager-App
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 2️⃣ Install Dependencies
 
-## Get a fresh project
 
-When you're ready, run:
+npm install
 
-```bash
-npm run reset-project
-```
+or
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+yarn install
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 3️⃣ Run the App
 
-## Join the community
+#### ▶️ Using Expo Go
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npx expo start
+
+Scan the QR code using the **Expo Go** app (on Android or iOS).
+
+#### ▶️ Using Development Build
+If you’re using a development build and want to run it directly on your device via USB:
+
+
+npx expo run:android
+
+
+💡 **Tip:**  
+If the app hangs on the splash screen when disconnected from USB, make sure your **Metro bundler** is still running and your device is connected to the **same Wi-Fi network**.
+
+---
+
+## 🧱 Project Structure
+
+
+Essential-Manager-App/
+├── app/ # App routes and screens
+│ ├── index.js # Root navigation
+│ ├── screens/ # Individual screen components
+│ └── components/ # Reusable UI components
+├── assets/ # Images, icons, fonts, etc.
+├── package.json # Project dependencies
+├── app.json # Expo configuration
+├── babel.config.js # Babel settings
+└── README.md # Project documentation
+
+
+---
+
+## ⚙️ Usage
+
+- Open the app on your device or emulator.  
+- Use the dashboard to access essential tools and utilities.  
+- Modify or extend modules as needed in the `/app/screens` or `/app/components` folders.
+
+---
+
+## 🧩 Tech Stack
+- ⚛️ React Native (Expo)  
+- 💡 JavaScript  
+- 🧭 React Navigation  
+- 🧰 Expo CLI  
+
+---
+
+## 🛠️ Troubleshooting
+
+### ❌ If the app doesn’t load:
+- Make sure the **Metro bundler** is running.  
+- Rebuild the app using:
+
+
+npx expo prebuild
+npx expo run:android
+
+- Clear cache:
+
+
+npx expo start -c
+
+
+---
+
+## 🧭 Git Commands to Push This Project
+
+If you haven’t yet pushed your project to GitHub, run these commands:
+
+
+git init
+git add .
+git commit -m "Initial project upload"
+git remote add origin https://github.com/PRATHAMdeshkar/Essential-Manager-App.git
+
+git push -u origin main --force
+
+
+---
+
+## 👨‍💻 Author
+**Pratham Deshkar**  
+🔗 [GitHub Profile](https://github.com/PRATHAMdeshkar)
+
+---
+
+## 🪪 License
+This project is open-source and available under the **MIT License**.
+
+---
+
+> ✨ *“Essential Manager — simplify your day, manage your essentials.”*
