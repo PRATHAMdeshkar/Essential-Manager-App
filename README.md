@@ -70,22 +70,6 @@ npx expo run:android
 
 npx expo start -c
 
-
----
-
-## 🧭 Git Commands to Push This Project
-
-If you haven’t yet pushed your project to GitHub, run these commands:
-
-
-git init
-git add .
-git commit -m "Initial project upload"
-git remote add origin https://github.com/PRATHAMdeshkar/Essential-Manager-App.git
-
-git push -u origin main --force
-
-
 ---
 
 ## 👨‍💻 Author
